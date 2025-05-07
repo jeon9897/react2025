@@ -1,0 +1,32 @@
+http://id.dothome.co.kr/index.html
+http://id.dothome.co.kr/sub01.html
+http://id.dothome.co.kr/sub02.html
+
+http://id.dothome.co.kr/ => index.js
+
+http://id.dothome.co.kr/main => App.js => Main콤포넌트
+
+http://id.dothome.co.kr/beauty = App.js => beauty콤포넌트
+http://id.dothome.co.kr/member/login =>  App.js => member > login콤포넌트
+
+-----------------------------------
+1. 새로운 프로젝트 생성하기 : npx create-react-app router
+2. 폴더경로 설정 : cd router
+3. 리액트 라우터 설치 : npm i react-router-dom
+4. 리액트 프로젝트 실행 : npm start
+
+http://localhost:3000/  = 메인
+http://localhost:3000/login = 로그인 페이지
+http://localhost:3000/map = 오시는 길 페이지
+http://localhost:3000/map111 = 페이지 찾을수 없음 notfound
+
+
+
+
+
+
+
+
+
+
+

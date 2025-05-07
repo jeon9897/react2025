@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01_일반dom과 가상dom의 차이 이해</title>
+</head>
+<body>
+  <h2>01_일반dom과 가상dom의 차이 이해</h2>
+  <p>DOM(Document Object Model)의 약자</p>
+  <p>DOM - 객체로 문서를 표현하는 방법 - HTML, PHP, XML로 작성</p>
+  <PRE>
+    !doctype html
+    html lang="ko"
+    head
+        meta charset="utf-8"
+        title 제목 /title
+    /head
+    body
+      h2제목 /h2
+      p문단내용 /p
+      ul
+        li 리스트 /li
+        li 리스트 /li
+        li 리스트 /li
+      /ul
+      a href="#" title=""> 링크 /a
+      img src="이미지 경로" alt=""
+    /body
+    /html
+
+    //PHP언어
+    ?php 내용 html태그 ?
+  </PRE>
+
+  <h3>일반 DOM의 단점</h3>
+  <ul>
+    <li>동적 UI에 최적화되어있지 않다.</li>
+    <li>HTML문서 자체적으로는 정적이여서 이것을 JS, jQuery로 동적이게 만들어야 한다.</li>
+    <li>DOM을 조작할 때마다 엔진이 웹페이지를 다시 새로 그리기 때문에(렌더링) 업데이트가 너무 잦으면 성능이 떨어진다.</li>
+    <li>데이터가 많은 페이지에서 스크롤바를 내릴수록 수많은 데이터가 로딩되는데 데이터를 표현하는데 있어 속도가 떨어지기 때문에 성능 이슈가 발생될 수 있다.</li>
+    <li>위와 같은 상황에서 문제를 느낀 페이스북에서는 대규모 프로젝트를 생성시 편하게 사용할 수 있고, 빠르게 대처할 수 있는 리액트를 새롭게 만들었음.</li>
+  </ul>
+
+  <p>새로고침(Refresh) - f5</p>
+  <p>리플로우(Reflow) - DOM의 구조나 레이아웃이 변경되면 브라우저는 새로운 레이아웃을 계산하고 화면을 다시 그립니다. 이를 리플로우라고 함. (예를 들어 요소의 크기나 위치를 변경하면 리플로우가 발생됨)</p>
+  <p>리페인트(Repaint) : 요소의 색상이나 테두리 등 서식이 변경되면, 브라우저는 해당 요소를 다시 그립니다. 이를 '리페인트'라고 함.</p>
+  <img src="./" alt="">
+
+</body>
+</html>

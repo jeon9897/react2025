@@ -1,0 +1,26 @@
+
+.txt_color1{
+  color:rgb(234, 0, 255);
+}
+
+#bg_color1{
+  background:#ccc;
+}
+
+.list2 li{
+  list-style: circle;
+  margin-left:40px;
+}
+
+/* 버튼 서식 */
+.btn{
+  width:40px;height:30px;
+  font-size:20px;
+  margin:10px;
+}
+
+.num{
+  color:#f00;
+  font-weight:bold;
+  font-size:30px;
+}

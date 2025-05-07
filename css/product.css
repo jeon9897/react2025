@@ -1,0 +1,26 @@
+@charset "utf-8";
+.product {
+  width: 1200px;
+  margin: 0 auto;
+}
+.product_title { text-align: center;}
+.product_list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+.product_list>li {
+  width: 23%;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  font-weight: bold;
+}
+.product_list>li img {
+  width: 100%;
+}
+.price {
+  color: #f00;
+  display:block;
+  text-align:right;
+}

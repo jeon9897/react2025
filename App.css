@@ -1,0 +1,33 @@
+*{margin:0px;padding:0px;}
+body{
+  line-height:30px;
+  color:#333;
+}
+
+.App{background:rgb(23, 104, 255);}
+.App > h1{
+  text-align:center;
+  font-size:22px;
+  color:#fff;
+  line-height:50px;
+}
+
+main{margin-left:10px;}
+.title2{
+  font-size:18px;color:rgb(23, 104, 255);
+  border-top:2px solid rgb(23, 104, 255);
+  border-bottom:2px solid rgb(23, 104, 255);
+  margin:20px 0px 10px 0px;padding:5px 0px;
+}
+.title3{font-size:18px;padding-top:20px;}
+ul{margin:6px 26px 16px 24px;}
+ul > li{list-style-type: disc;}
+h4{margin:10px 0px;padding:2px;}
+
+.footer{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  line-height:36px;
+}
+.footer address{font-style: normal;}

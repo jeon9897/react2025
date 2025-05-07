@@ -1,0 +1,10 @@
+@charset "utf-8";
+footer{
+  background:#e0e0e0;
+}
+footer > address{
+  font-style:normal;
+  text-align:center;
+  line-height:50px;
+  font-size:12px;
+}
